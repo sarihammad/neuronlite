@@ -1,6 +1,6 @@
 # NeuronLite
 
-A C++20/23 ML runtime and execution engine focused on fast kernels, explicit memory control, and built-in profiling.
+A C++ ML runtime and execution engine focused on fast kernels, explicit memory control, and built-in profiling.
 
 ## Highlights
 
@@ -55,19 +55,6 @@ kernels::GEMM::matmul(A, B, C);
 ./benchmarks/neuronlite_benchmarks
 ctest --output-on-failure
 ```
-
-## Layout
-
-```
-include/neuronlite/   Public headers
-src/                  Implementations
-examples/             Usage examples
-benchmarks/           Microbenchmarks
-```
-
-## Contributing
-
-See CONTRIBUTING.md.
 
 ## License
 
